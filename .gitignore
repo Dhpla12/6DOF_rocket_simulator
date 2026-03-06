@@ -1,0 +1,11 @@
+# Compiled files
+*.class
+out/
+target/
+
+# IDE files
+.idea/
+*.iml
+
+# Logs and databases
+*.log
