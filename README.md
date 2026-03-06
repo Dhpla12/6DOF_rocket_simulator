@@ -45,7 +45,7 @@ This is just the beginning. Planned additions include:
 
 As a learning project, suggestions and contributions are welcome! Feel free to open issues or submit pull requests.
 
-For a detailed explanation of the physics models used, see [PHYSICS.md](PHYSICS.md).
+For a detailed explanation of the physics models used, see [PHYSICS.md](docs/PHYSICS.md).
 
 ---
 
