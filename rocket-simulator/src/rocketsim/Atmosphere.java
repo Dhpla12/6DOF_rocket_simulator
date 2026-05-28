@@ -16,4 +16,27 @@ public class Atmosphere {
     public static double getSpeedOfSound(double altitude) {
         return 340.0; // approximate
     }
+
+    public static double[] getWind(double altitude) {
+
+    double windX;
+    double windY;
+
+    // Simple layered wind model
+
+    if (altitude < 100) {
+        windX = 2.0;
+        windY = 0.5;
+    }
+    else if (altitude < 500) {
+        windX = 5.0;
+        windY = 1.5;
+    }
+    else {
+        windX = 8.0;
+        windY = 3.0;
+    }
+
+    return new double[]{windX, windY, 0.0};
+}
 }
